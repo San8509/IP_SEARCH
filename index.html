@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css"
+    />
+    <title>Aplicacion de busqueda de informacion IP</title>
+  </head>
+  <body>
+    <main class="container">
+      <form id="form">
+        
+        <label for="">
+          IP del Usuario
+          <input required id="input" type="text" placeholder="Introduce la IP" />
+          <small>Ejemplo: 128.218.229.26</small>
+        </label>
+
+        <button id="submit" type="submit">Buscar Informacion de esta IP</button>
+      
+      </form>
+
+      <div>
+        <pre id="results"></pre>
+      </div>
+
+    </main>
+    <script src="/JSAplication/js.js"></script>
+  </body>
+</html>
